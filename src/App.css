@@ -1,6 +1,13 @@
 .header {
   display: flex;
 }
+.address {
+  display: flex;
+}
+.address li {
+  list-style: none;
+  padding: 0 20px;
+}
 .navbar {
   background: #E53935;
 }
