@@ -2,8 +2,8 @@
 import callIcon from '../assets/Call.svg'
 import locationIcon from '../assets/location.svg'
 import mailIcon from '../assets/Mail.svg'
-import callIcon from '../assets/Call.svg'
-import callIcon from '../assets/Call.svg'
+// import callIcon from '../assets/Call.svg'
+// import callIcon from '../assets/Call.svg'
 
 export default function Header() {
   return (
@@ -19,7 +19,8 @@ export default function Header() {
                   <span>+91 9969922348</span>
                 </li>
                 <li>
-                <span>Import.Export@mail.com</span>
+                  <img src={mailIcon} alt="mail" />
+                  <span>Import.Export@mail.com</span>
                 </li>
             </ul>
         </div>

@@ -12,6 +12,12 @@
 .address li {
   list-style: none;
   padding: 0 20px;
+  display: flex;
+  align-items: center;
+}
+.address li span {
+  display: inline-block;
+  margin-left: 5px;
 }
 .navbar {
   background: #E53935;
