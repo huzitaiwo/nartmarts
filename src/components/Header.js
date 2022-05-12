@@ -1,5 +1,9 @@
 //icons
 import callIcon from '../assets/Call.svg'
+import locationIcon from '../assets/location.svg'
+import mailIcon from '../assets/Mail.svg'
+import callIcon from '../assets/Call.svg'
+import callIcon from '../assets/Call.svg'
 
 export default function Header() {
   return (
@@ -7,10 +11,12 @@ export default function Header() {
         <div className="container">
             <ul className='address'>
                 <li>
-                <span>Hyderabad, India</span>
+                  <img src={locationIcon} alt="location" />
+                  <span>Hyderabad, India</span>
                 </li>
                 <li>
-                <span>+91 9969922348</span>
+                  <img src={callIcon} alt="call" />
+                  <span>+91 9969922348</span>
                 </li>
                 <li>
                 <span>Import.Export@mail.com</span>
