@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom"
+import logo from '../assets/logo.svg'
 
 export default function Navbar() {
   return (
     <nav className='navbar'>
       <div className="logo">
-        Import Export
+        Import <img src={logo} alt="" /> Export
       </div>
       <ul className="nav-links">
         <li><Link>Home</Link></li>
