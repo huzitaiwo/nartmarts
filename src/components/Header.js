@@ -2,10 +2,11 @@
 import callIcon from '../assets/Call.svg'
 import locationIcon from '../assets/location.svg'
 import mailIcon from '../assets/Mail.svg'
-import whatsappIcon from '../assets/Call.svg'
+import whatsappIcon from '../assets/whatsapp.svg'
 import facebookIcon from '../assets/facebook.svg'
 import instagramIcon from '../assets/instagram.svg'
 import twitterIcon from '../assets/twitter.svg'
+import linkedinIcon from '../assets/linkedin.svg'
 
 export default function Header() {
   return (
@@ -27,7 +28,19 @@ export default function Header() {
             </ul>
             <ul className="social-links">
                 <li>
-                    <img src="" alt="" />
+                    <img src={facebookIcon} alt="" />
+                </li>
+                <li>
+                    <img src={instagramIcon} alt="" />
+                </li>
+                <li>
+                    <img src={twitterIcon} alt="" />
+                </li>
+                <li>
+                    <img src={linkedinIcon} alt="" />
+                </li>
+                <li>
+                    <img src={whatsappIcon} alt="" />
                 </li>
             </ul>
         </div>
