@@ -2,8 +2,10 @@
 import callIcon from '../assets/Call.svg'
 import locationIcon from '../assets/location.svg'
 import mailIcon from '../assets/Mail.svg'
-// import callIcon from '../assets/Call.svg'
-// import callIcon from '../assets/Call.svg'
+import whatsappIcon from '../assets/Call.svg'
+import facebookIcon from '../assets/facebook.svg'
+import instagramIcon from '../assets/instagram.svg'
+import twitterIcon from '../assets/twitter.svg'
 
 export default function Header() {
   return (
@@ -21,6 +23,11 @@ export default function Header() {
                 <li>
                   <img src={mailIcon} alt="mail" />
                   <span>Import.Export@mail.com</span>
+                </li>
+            </ul>
+            <ul className="social-links">
+                <li>
+                    <img src="" alt="" />
                 </li>
             </ul>
         </div>
