@@ -19,6 +19,10 @@
   display: inline-block;
   margin-left: 5px;
 }
+.social-links {
+  display: flex;
+  list-style: none;
+}
 .navbar {
   background: #E53935;
 }
