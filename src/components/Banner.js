@@ -1,7 +1,9 @@
-import React from 'react'
+import banner from '../assets/hero_image.png'
 
 export default function Banner() {
   return (
-    <div>Banner</div>
+    <div>
+        <img src={banner} alt="banner" />
+    </div>
   )
 }
