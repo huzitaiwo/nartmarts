@@ -28,19 +28,19 @@ export default function Header() {
             </ul>
             <ul className="social-links">
                 <li>
-                    <img src={facebookIcon} alt="" />
+                    <img src={facebookIcon} alt="facebook" />
                 </li>
                 <li>
-                    <img src={instagramIcon} alt="" />
+                    <img src={instagramIcon} alt="instagram" />
                 </li>
                 <li>
-                    <img src={twitterIcon} alt="" />
+                    <img src={twitterIcon} alt="twitter" />
                 </li>
                 <li>
-                    <img src={linkedinIcon} alt="" />
+                    <img src={linkedinIcon} alt="linkedin" />
                 </li>
                 <li>
-                    <img src={whatsappIcon} alt="" />
+                    <img src={whatsappIcon} alt="whatsapp" />
                 </li>
             </ul>
         </div>

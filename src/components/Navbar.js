@@ -6,7 +6,7 @@ export default function Navbar() {
     <nav className='navbar'>
         <div className="container">
             <div className="logo">
-                Import <img src={logo} alt="" /> Export
+                Import <img src={logo} alt="logo" /> Export
             </div>
             <ul className="nav-links">
                 <li><Link>Home</Link></li>
